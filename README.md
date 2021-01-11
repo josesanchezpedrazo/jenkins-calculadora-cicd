@@ -9,5 +9,3 @@ El único requisito es tener Docker instalado. Los comandos del Makefile funcion
 Este repositorio tiene un proyecto python que es una calculadora que expone un API en el puerto localhost:5000 y una parte web expuesta en el puerto localhost:80 compuesta por un bastion/nginx muy pequeñito que sirve un fichero html con JS. La UI llama a la API para solicitar ejecución y mostrar el resultado.
 
 El proyecto esta dockerizado.
-
-
